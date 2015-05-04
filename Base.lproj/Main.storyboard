@@ -9,37 +9,34 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cEk-OA-MGm"/>
+                        <viewControllerLayoutGuide type="bottom" id="bgE-ct-VuR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mj-NT-Aee">
-                                <rect key="frame" x="123" y="269" width="75" height="30"/>
-                                <state key="normal" title="FIRE IT UP">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NWK-2C-R1e" kind="modal" id="xr6-9R-QSK"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcb-R0-AMj">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="670"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="fireImage" destination="xcb-R0-AMj" id="E8j-cU-C04"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74.666666666666671" y="128.74666666666667"/>
+            <point key="canvasLocation" x="74" y="128"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="o6s-fa-uRa">
             <objects>
                 <viewController id="NWK-2C-R1e" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cA5-jP-knS"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Pd-gU-V7J"/>
+                        <viewControllerLayoutGuide type="top" id="L8x-Yf-DMo"/>
+                        <viewControllerLayoutGuide type="bottom" id="qq7-kz-6RC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HrB-cg-wfc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>

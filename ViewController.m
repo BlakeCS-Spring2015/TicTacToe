@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *fireImage;
 
 @end
 
@@ -17,7 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *displayImage = [UIImage imageNamed:@"fire.jpg"];
+    self.fireImage.image = displayImage;
+    //UIFont *customFont = [UIFont fontWithName: @"gothambook" size:(50)];
+    self.fireItUpButton. = @"fire it up";
+    
+    
+    
 }
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
