@@ -18,10 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImage *displayImage = [UIImage imageNamed:@"fire.jpg"];
+    UIImage *displayImage = [UIImage imageNamed:@"touchToBegin.jpg"];
     self.fireImage.image = displayImage;
     //UIFont *customFont = [UIFont fontWithName: @"gothambook" size:(50)];
-    self.fireItUpButton. = @"fire it up";
+    //self.fireItUpButton. = @"fire it up";
     
     
     
